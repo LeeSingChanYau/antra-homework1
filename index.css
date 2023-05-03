@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up {
+  width: 50%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-row input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+  flex: 1;
+  max-width: calc(50% - 5px); /* Subtract 5px for margin between inputs */
+}
+
+.single-input-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  width: 30%;
+}
+
+.register {
+  color: white;
+  background-color: lightblue;
+  border-radius: 90px;
+}
+
+.sign-in {
+  color: white;
+  background-color: green;
+  border-radius: 90px;
+}
+
+.agree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+label {
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+mark {
+  background-color: #89cff0;
+  color: white;
+}
